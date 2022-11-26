@@ -1,0 +1,164 @@
+*,
+::before,
+::after {
+ padding: 0;
+ margin: 0;
+}
+html {
+aspect-ratio: 2 / 1;
+box-sizing: border-box;
+border: 1px solid
+}
+#header-img {
+ width: 160px;
+ display: flex;
+ border: 2px solid black;
+ border-radius: 90px;
+}
+header {  background-color: #c0c0c0;
+height: 165px;
+}
+a{
+  text-decoration: none;
+  color: gold;
+}
+nav {
+ display: flex;
+ list-style-type: none;
+ margin-left: 298px;
+ position: fixed;
+ top: 10px;
+}
+#video-box {
+ border: 3px solid #9400d3;
+ margin-top: 50px;
+ background-color: black;
+ color: gold;
+ font-size: 25px;
+ font-family: sans-serif;
+ text-align: center;
+}
+iframe {
+ width: 60%;
+ height: 300px;
+}
+body {
+background-color: #ff8c00
+}
+h3 {
+ margin-top: 10px;
+ color: black;
+}
+#icon1 {
+ width: 50px;
+ opacity: 60%;
+ border-radius: 40px;
+ border: 2px solid #9400d3;
+ display: flex;
+ position: absolute;
+ top: 190px;
+}
+h3, p:not(#bbb) {
+ margin-left: 80px;
+}
+#icon2 {
+ width: 50px;
+ opacity: 80%;
+ border: 2px solid #9400d3;
+ display: flex;
+ border-radius: 40px;
+ position: absolute;
+ top: 280px;
+}
+#icon3 {
+ width: 50px;
+ opacity: 70%;
+ border-radius: 30px;
+ border: 2px solid #9400d3;
+ display: flex;
+ position: absolute;
+ top: 370px;
+}
+hr {
+ border-color: black;
+ height: 2px;
+ background: linear-gradient(to right, purple, gold, purple);
+ margin-top: 50px;
+}
+#base, #burn, #build {
+ display: inline-block;
+ margin-right: 30px;
+ margin-left: 172px;
+ margin-top: 30px;
+ text-decoration: none;
+}
+#base {
+ color: brown;
+ font-size: 23px;
+}
+#burn {
+ color: red;
+ font-size: 23px;
+}
+#build {
+ color: black;
+ font-size: 23px;
+}
+#bbb {
+ text-align: center;
+ font-style: italic;
+ margin-bottom: -15px;
+}
+label {
+ font-size: 20px;
+}
+footer {
+ text-align: center;
+}
+ 
+#foot {
+ text-align: center;
+ margin-top: 20px;
+ margin-bottom: 20px;
+}
+textarea {
+ position: relative;
+ top: 20;
+}
+.submit {
+ margin-top: 20px;
+ font-size: 20px;
+ width: 300px;
+ background-color: #9400d3;
+ border-radius: 10px;
+}
+
+#line-1 {
+ position: absolute;
+ left: 240px;
+ top: 62px;
+ color: #9400d3;
+ font-family: sans-serif;
+ font-size: 50px;
+}
+#line-2 {
+ padding-top: 50px;
+ position: absolute;
+ right: 150px;
+ top: 12px;
+ color: #9400d3;
+ font-family: sans serif;
+ font-size: 50px;
+}
+li {
+  list-style-type: none;
+  display: inline-block;
+  border: 2px solid #9400d3;
+  background-color: black;
+  border-radius: 10px;
+  padding-right: 35px;
+  padding-left: 35px;
+}
+@media screen and (min-width: 728px, max-width: 1366px) {
+  font-size: 1em;
+}
